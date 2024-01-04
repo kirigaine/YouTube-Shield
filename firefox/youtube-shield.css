@@ -1,0 +1,24 @@
+/* Hide the video stream */
+video[class|="video-stream html5-main-video"]{
+	visibility: hidden;
+}
+/* Hide video stream background lighting */
+div[id|="cinematics-container"]{
+	visibility: hidden;
+}
+/* Hide suggested video thumbnails */
+img[class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded"]{
+	visibility: hidden;
+}
+/* Hide collections backdrop */
+div[class="collections-stack-wiz__collection-stack1 collections-stack-wiz__collection-stack1--medium"]{
+	visibility: hidden;
+}
+/* Hide comment section */
+ytd-item-section-renderer[class|="style-scope ytd-comments"]{
+	visibility: hidden;
+}
+/* Hide chips tablist */
+yt-related-chip-cloud-renderer[class|="style-scope ytd-watch-next-secondary-results-renderer"]{
+	visibility: hidden;
+}

@@ -1,12 +1,12 @@
-# YouTube Shield Chrome Extension
+# YouTube Shield Browser Extension
 
-YouTube Shield is a Chrome extension designed to enhance your YouTube experience by focusing solely on audio content. This extension allows you to listen to YouTube videos as audio-only, eliminating distracting video elements and providing a distraction-free listening experience.
+YouTube Shield is a browser extension designed to enhance your YouTube experience by focusing solely on audio content. This extension allows you to listen to YouTube videos as audio-only, eliminating distracting video elements and providing a distraction-free listening experience.
 
 ## Features
 
 - **Simplified Interface:** YouTube Shield removes the video display, creating a cleaner and more audio-focused interface.
 
-- **Easy Activation:** Activate or deactivate the extension with a single click on the Chrome toolbar.
+- **Easy Activation:** Activate or deactivate the extension with a single click on your browser's toolbar.
 
 - **Privacy:** Youtube Shield only works on YouTube and only alters the current tab. It's not bloat!
 
@@ -19,6 +19,8 @@ YouTube Shield is a Chrome extension designed to enhance your YouTube experience
 - **Keyboard Shortcuts:** Enable/disable through a simple hotkey.
 
 ## Installation
+
+### Chrome
 
 Follow these steps to install YouTube Shield:
 
@@ -36,11 +38,28 @@ Follow these steps to install YouTube Shield:
 
 7. The YouTube Shield extension will be installed and accessible from the Chrome toolbar.
 
+### Firefox
+
+1. Clone or download the repository to your local machine.
+
+2. Open Firefox.
+
+3. In the address bar, enter `about:debugging#/runtime/this-firefox`.
+
+4. Click on the "Load Temporary Add-on" button.
+
+6. Select the "manifest.json" inside folder you cloned or downloaded from the repository.
+
+7. The YouTube Shield extension will be installed and accessible from the Firefox toolbar.
+
+8. (Optional) Click the extensions button and pin extension to toolbar. 
+
+
 ## Usage
 
 1. Navigate to a YouTube video that you want to listen to.
 
-2. Click the YouTube Shield icon in the Chrome toolbar to activate audio-only mode.
+2. Click the YouTube Shield icon in the browser toolbar to activate audio-only mode.
 
 3. The video player will be hidden, and you can now listen to the audio content while continuing activities on other monitors without minimizing controls.
 
